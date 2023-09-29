@@ -60,6 +60,7 @@ fun AccountRecoveryScreen(
                 onValueChange = { },
                 shape = RoundedCornerShape(15.dp),
             )
+
             Spacer(Modifier.padding(20.dp))
             ShrineButton(
                 onClick = onAccountRecoveryButtonClicked,
